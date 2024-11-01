@@ -3,7 +3,7 @@ output_dir: ./st_mem
 exp_name: finetune
 resume: null
 start_epoch: 0
-encoder_path: ./st_mem/pretrain/encoder.pth
+encoder_path: /content/ECHOPulse_Prelease/Model_weights/st_mem_vit_base.pth
 model_name: st_mem_vit_base
 mode: finetune
 device: cuda
